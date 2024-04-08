@@ -1,0 +1,9 @@
+class Solution(object):
+    def isPalindrome(self, x):
+        n=x
+        rem=0
+        sum=0
+        if x<0:
+            return False
+        while n>0:
+            rem=n%1
